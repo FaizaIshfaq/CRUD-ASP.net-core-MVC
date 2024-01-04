@@ -23,7 +23,7 @@ namespace WebApplication4.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source=SQL5106.site4now.net,1433;Initial Catalog=db_aa26cc_localdb;User Id=db_aa26cc_localdb_admin;Password=locallDB123$;");
+                optionsBuilder.UseSqlServer(your_key);
             }
         }
 
